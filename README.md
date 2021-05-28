@@ -30,7 +30,7 @@ $ make
 
 **syntax:**
 
-./test_lpd <config_dir> <sample_dir> <angle>
+./test_lpd config_dir sample_dir angle
 
 ```bash
 ./test_lpd ../config ../samples 40
