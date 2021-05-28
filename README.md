@@ -1,10 +1,10 @@
 # abeolpdlib
 Launchpad detector
 
-**Requirements**
--CMake 3.10 +
--Git
--OpenCV 
+**Requirements:**
+* CMake 3.10 +
+* Git
+* OpenCV 
 
 #1. Clone this repo
 ```bash
