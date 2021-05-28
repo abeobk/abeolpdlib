@@ -13,10 +13,10 @@ model_count = 6
 angle_models = 4 5
 
 #Angular step
-angle_step = 5
+angle_step = 10
 
 #Angle range
-angle_range = -90 90
+angle_range = -180 180
 
 #Algorithm parameters
 #uncomment to change
