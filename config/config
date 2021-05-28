@@ -1,0 +1,41 @@
+############################
+# model configuration file #
+############################
+
+
+# number of model file
+# model files should be 32x32 grayscale PNG format
+# filename: <idx>.png , idx = 0,1, ..., N
+
+model_count = 6
+
+#angle model indices
+angle_models = 4 5
+
+#Angular step
+angle_step = 5
+
+#Angle range
+angle_range = -90 90
+
+#Algorithm parameters
+#uncomment to change
+
+# blur_rad=2
+
+# mean_rad=20
+
+mean_c=10
+
+# min_con_len=100
+
+# max_err=0.01
+
+# min_ratio=0.8
+
+show_log=true
+
+#camera calibration data
+#K = 
+#D =
+
