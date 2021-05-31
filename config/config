@@ -10,7 +10,7 @@
 model_count = 6
 
 #model diameters
-model_diameters = 40.0 55.0 90.0 100.0 500.0 650.0
+model_diameters = 40.0 55.0 90.0 100.0 515.0 650.0
 
 #angle model indices
 angle_models = 4 5
