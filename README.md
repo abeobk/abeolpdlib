@@ -4,7 +4,7 @@ Launchpad detector
 **Requirements:**
 * CMake 3.10 +
 * Git
-* OpenCV 
+* OpenCV 4.1.1
 
 #1. Clone this repo
 ```bash
@@ -14,7 +14,7 @@ $ git clone https://github.com/abeobk/abeolpdlib.git
 
 ```bash
 $ cd abeolpdlib
-$ sudo dpkg -i abeolpdlib_1.0.0_arm64.deb
+$ sudo dpkg -i abeolpdlib_1.0.0_arm64_opencv4.1.1.deb
 ```
 
 #3. Build
