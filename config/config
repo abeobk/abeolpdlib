@@ -9,7 +9,7 @@
 
 model_count = 6
 
-#model diameters
+#model diameters...
 model_diameters = 40.0 55.0 90.0 100.0 515.0 650.0
 
 #angle model indices
@@ -20,6 +20,9 @@ angle_step = 10
 
 #Angle range
 angle_range = -180 180
+
+
+
 
 #Algorithm parameters
 #uncomment to change
@@ -36,5 +39,20 @@ mean_c=10
 
 # min_ratio=0.8
 
-show_log=false
+
+
+# Set this parameter to remove some noise (cross hair, camera noise ...)
+# value should be 3, 5 ,7, 9 ... 
+# performance may be reduced
+# set to 0 to disable
+# median_blur_rad = 0
+
+
+# Max matching error limit, adjust this parameter to remove false detection
+max_matching_err = 0.1
+
+# show /hide log
+show_log=true
+
+
 
