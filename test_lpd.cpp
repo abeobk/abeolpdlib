@@ -41,7 +41,7 @@ int main(int argc, char** argv){
         cv::warpAffine(img,img,M, cv::Size(img.cols,img.rows));
 
         //detect
-        auto res = lpd.detect(img);
+        auto res = lpd.detect(img,false);
 
         //Print position
         cout<<"Position: ("<<res.x<<","<<res.y<<","<<res.z<<")"<< endl;
