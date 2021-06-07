@@ -49,7 +49,7 @@ mean_c=10
 
 
 # Max matching error limit, adjust this parameter to remove false detection
-max_matching_err = 0.2
+max_matching_err = 0.12
 
 # show /hide log
 show_log=true
