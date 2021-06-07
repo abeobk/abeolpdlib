@@ -33,7 +33,14 @@ $ make
 ./test_lpd config_dir sample_dir angle
 
 ```bash
-./test_lpd ../config ../samples 40
+# using 32x32 models
+./test_lpd ../config32 ../samples 40
+
+# using 48x48 models
+./test_lpd ../config48 ../samples -40
+
+# using 64x64 models
+./test_lpd ../config64 ../samples 90
 ```
 
 
