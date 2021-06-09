@@ -16,7 +16,7 @@ model_diameters = 40.0 55.0 90.0 100.0 515.0 650.0
 angle_models = 4 5
 
 #Angular step
-angle_step = 10
+angle_step = 1
 
 #Angle range
 angle_range = -180 180
@@ -49,7 +49,7 @@ mean_c=10
 
 
 # Max matching error limit, adjust this parameter to remove false detection
-max_matching_err = 0.1
+max_matching_err = 0.2
 
 # show /hide log
 show_log=true
