@@ -15,6 +15,7 @@ cv::Mat get_sample(std::string const& dir, int idx){
 
 
 int main(int argc, char** argv){
+    
     if(argc<4){
         std::cout<<"TOO FEW ARGUMENTS!"<<std::endl;
         std::cout<<"syntax: test_lpd config_dir sample_dir"<<std::endl;
