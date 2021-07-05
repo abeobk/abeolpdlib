@@ -54,5 +54,5 @@ max_matching_err = 0.12
 # show /hide log
 show_log=true
 
-
+extreme_mode=false
 
