@@ -30,17 +30,11 @@ $ make
 
 **syntax:**
 
-./test_lpd config_dir sample_dir angle
+./test_lpd config_dir video_file
 
 ```bash
-# using 32x32 models
-./test_lpd ../config32 ../samples 40
-
-# using 48x48 models
-./test_lpd ../config48 ../samples -40
-
-# using 64x64 models
-./test_lpd ../config64 ../samples 90
+# using 128x128 models
+./test_lpd ../config128 ../videos/p1.mp4
 ```
 
 
