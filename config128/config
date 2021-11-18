@@ -10,7 +10,7 @@
 model_count = 6
 
 #model diameters...
-model_diameters = 80.0 110.0 160.0 190.0 800.0 1000.0
+model_diameters = 64.0 88.0 128.0 152.0 640.0 800.0
 
 #angle model indices
 angle_models = 0 1 2 3 4 5
@@ -31,15 +31,15 @@ angle_range = -180 180
 
 # mean_rad=20
 
-mean_c=10
+mean_c=5
 
-# min_con_len=100
+min_con_len=30
 
 # max_err=0.01
 
 # min_ratio=0.8
 
-compensation_rad=2
+compensation_rad=4
 
 
 
@@ -51,10 +51,8 @@ compensation_rad=2
 
 
 # Max matching error limit, adjust this parameter to remove false detection
-max_matching_err = 0.12
+max_matching_err = 0.2
 
 # show /hide log
 show_log=true
-
-extreme_mode=true
 
